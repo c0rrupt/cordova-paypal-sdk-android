@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+	    xmlns:android="http://schemas.android.com/apk/res/android"
+        id="com.corrupt.paypal-mpl-android"
+        version="2.5.4">
+      
+    <name>PayPal SDK</name>
+	<description>add PayPal SDK to cordova project as dependency of other plugins</description>
+	<keywords>paypal,sdk</keywords>
+
+	<engines>
+	    <engine name="cordova" version=">=3.0" />
+	</engines>
+	
+    <!-- android -->
+    <platform name="android">
+        <source-file src="PayPalAndroidSDK.jar" target-dir="libs" />
+    </platform>
+</plugin>

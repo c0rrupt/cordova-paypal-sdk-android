@@ -1,0 +1,19 @@
+{
+    "version": "2.5.4",
+    "name": "com.cordova.paypal-sdk-android",
+    "cordova_name": "PayPal SDK",
+    "description": "add PayPal SDK to cordova project as dependency of other plugins",
+    "keywords": [
+        "paypal",
+        "sdk"
+    ],
+    "platforms": [
+        "android"
+    ],
+    "engines": [
+        {
+            "name": "cordova",
+            "version": ">=3.0"
+        }
+    ]
+}
